@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ediregold"
+        android:layout_width="276dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/backgraundtext"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="Old"
+        android:inputType="textEmailSubject"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/ediregphone"
+        app:layout_constraintEnd_toEndOf="@+id/ediregphone"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/ediregphone"
+        tools:ignore="RtlHardcoded,RtlSymmetry,TextFields" />
+
+    <EditText
+        android:id="@+id/ediregphone"
+        android:layout_width="276dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/backgraundtext"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:maxLength="13"
+        android:inputType="textEmailSubject"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/ediregemail"
+        app:layout_constraintEnd_toEndOf="@+id/ediregemail"
+        app:layout_constraintStart_toStartOf="@+id/ediregemail"
+        tools:ignore="RtlHardcoded,RtlSymmetry,TextFields" />
+
+    <EditText
+        android:id="@+id/ediregsurname"
+        android:layout_width="276dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/backgraundtext"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="textEmailSubject"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/ediregold"
+        app:layout_constraintEnd_toEndOf="@+id/ediregold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ediregold"
+        tools:ignore="RtlHardcoded,RtlSymmetry,TextFields" />
+
+    <EditText
+        android:id="@+id/ediregname"
+        android:layout_width="276dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/backgraundtext"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textEmailSubject"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/ediregsurname"
+        app:layout_constraintEnd_toEndOf="@+id/ediregsurname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ediregsurname"
+        tools:ignore="RtlHardcoded,RtlSymmetry,TextFields" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="292dp"
+        android:layout_height="209dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/ediregname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/imgepassword" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="274dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/backgraundbutton"
+        android:elevation="10dp"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnregrol"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/backgraundtext"
+        android:text=">       "
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnsubmit"
+        app:layout_constraintEnd_toEndOf="@+id/btnsubmit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnsubmit" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        app:hintEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/btnsubmit"
+        app:layout_constraintStart_toStartOf="@+id/btnsubmit"
+        app:passwordToggleEnabled="true"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ediregpass"
+            android:layout_width="274dp"
+            android:layout_height="60dp"
+            android:background="@drawable/backgraundtext"
+            android:ems="10"
+            android:hint="Password"
+            android:maxLength="6"
+            android:inputType="textPersonName|textPassword"
+            android:paddingLeft="20dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/ediregemail"
+        android:layout_width="274dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/backgraundtext"
+        android:elevation="10dp"
+        android:ems="10"
+        android:hint="Gmail"
+        android:inputType="textEmailSubject"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:maxLength="30"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        tools:ignore="RtlHardcoded,RtlSymmetry,TextFields" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnregrol" />
+
+    <ImageView
+        android:id="@+id/imgregmale"
+        android:layout_width="50dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnregrol"
+        app:layout_constraintStart_toEndOf="@+id/btnregrol"
+        app:layout_constraintTop_toTopOf="@+id/btnregrol"
+        app:srcCompat="@drawable/imgemale" />
+
+    <ImageView
+        android:id="@+id/imgregfamale"
+        android:layout_width="58dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgregmale"
+        app:layout_constraintStart_toEndOf="@+id/imgregmale"
+        app:layout_constraintTop_toTopOf="@+id/imgregmale"
+        app:srcCompat="@drawable/imgefemale" />
+
+    <ProgressBar
+        android:id="@+id/progressBarreg"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="82dp"
+        android:layout_height="77dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

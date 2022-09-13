@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "1034957029853",
+    "project_id": "yorvoration-77dee",
+    "storage_bucket": "yorvoration-77dee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034957029853:android:14187d10cffa5010ebb634",
+        "android_client_info": {
+          "package_name": "com.workmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034957029853-qn4s5q4vt86rcop5qa35b938569thbtm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workmanager",
+            "certificate_hash": "98d5f1b1fa20109e03c64e01df397acce1c89284"
+          }
+        },
+        {
+          "client_id": "1034957029853-18amqc91m2u7foem7f8m50ahd4eum08g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDRtDyi9Tik6qF9YlkZeopxMIWt9JdFbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034957029853-18amqc91m2u7foem7f8m50ahd4eum08g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034957029853-ia4d7es523pnshm2kq587ob9l0hng34k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.name.WorkManager"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034957029853:android:ec953b9cc4abb54cebb634",
+        "android_client_info": {
+          "package_name": "com.yorvoration.workmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034957029853-18amqc91m2u7foem7f8m50ahd4eum08g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDRtDyi9Tik6qF9YlkZeopxMIWt9JdFbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034957029853-18amqc91m2u7foem7f8m50ahd4eum08g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034957029853-ia4d7es523pnshm2kq587ob9l0hng34k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.name.WorkManager"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
